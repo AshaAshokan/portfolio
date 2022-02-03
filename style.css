@@ -2397,3 +2397,6 @@ a.button.large {
 .port-style a{
     color: #939393;
 }
+p.big {
+    line-height: 1.8;
+  }
