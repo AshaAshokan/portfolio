@@ -2397,3 +2397,6 @@ a.button.large {
 .port-style a{
     color: #939393;
 }
+.responsive {
+    width: 100%;
+    height: auto;
