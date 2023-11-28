@@ -155,9 +155,10 @@
 												<li><a href="javascript:;"> <i class="fas fa-user-edit"></i> by admin</a></li>
 											</ul> -->
 										</div>
+										<p class="pt-3 pb-3">This case study will showcase one of the components I developed for Workplace, detailing the process I followed to create the component and how I documented it</p>
 										<h3 class="blog_heading">Overview</h3>
-										<p class="pt-3 pb-3">Notification banners can be used to display various types of messages, such as alerts, warnings, updates, or confirmations. They usually include a short text message, sometimes along with an icon or a call-to-action button, and can be dismissed by the user or automatically disappear after a certain period of time. User interface elements that display short messages to users, typically at the top of the screen.
-											<br>Specific use case: Meeting Reminders, Incoming Call Alerts, Joining a Call, Dismissal and Interaction.</p>
+										<p class="pt-3 pb-3">Workplace is an business communication platform that securely combines chat, video, groups. It facilitates online groupwork, instant messaging, video conferencing, and news sharing.<br><br><b>Component:</b> Notification banners can be used to display various types of messages, such as alerts, warnings, updates, or confirmations. They usually include a short text message, sometimes along with an icon or a call-to-action button, and can be dismissed by the user or automatically disappear after a certain period of time. User interface elements that display short messages to users, typically at the top of the screen.
+											<br><br><b>Use case:</b> Meeting reminder/notification for Incoming Call Alerts, Joining a Call, Dismissal and Interaction.</p>
 										 <blockquote>
 											<i class="fas fa-quote-left blockquote_icon"></i>Target Delivery<br>Design System v0.4 Release * Duration 2 weeks.</blockquote> 
 											<h3 class="blog_heading pt-5">Process Followed</h3>
@@ -175,13 +176,13 @@
 											
 											
 
-											<h3 class="blog_heading pt-5">Empathize</h3>
+											
 											<p class="pt-3 pb-3">I start by understanding the requirements of the component and the needs of the product. I review existing components to identify patterns and design principles that should be followed.
 
 											</p>
 
-												<h4 class="blog_heading pt-3">Current notification component</h4>
-												<p class="pt-3">I noticed that the current notification component has usability issues: Limited visibility, User confusion, Space constraints, Technical limitations. Considering these potential problems, I followed design patterns and guidelines for notifications to ensure clarity, consistency, and optimal user experience.  The components needed to be designed in a way that was consistent with our brand guidelines and adaptable to different user interfaces.</p>
+												<h4 class="blog_heading pt-3">Current problem</h4>
+												<p class="pt-3">I noticed that the current notification component has usability issues: Limited visibility, User confusion, Space constraints, Technical limitations.Considering these potential problems, I followed design patterns and guidelines for notifications to ensure clarity, consistency, and optimal user experience.The components needed to be designed in a way that was consistent with our brand guidelines and adaptable to different user interfaces.</p>
 												
 													<div class="signature pt-3">
 														
@@ -191,7 +192,7 @@
 										
 													
 
-											<h3 class="blog_heading pt-5">Requirements</h3>
+											<h3 class="blog_heading pt-5">Requirements gathering</h3>
 											<p class="pt-3 pb-3">In this case i gathered information based on the following aspects :</p>
 											<h5 class="pt-3 pb-3"><b>Functional behaviours</b></h5>
 											
@@ -223,64 +224,76 @@
 											</blockquote>
 
 											<h3 class="blog_heading pt-5">Ideation and Sketch</h3>
-											<p class="pt-3">I start sketching ideas and considering different design solutions that will align with the design system's requirements. I iterate and refine until I arrive at a solution that meets the needs of the component and the product..</p>
+											<p class="pt-3">I start sketching ideas and considering different design solutions that will align with the design system's requirements. I iterate and refine until I arrive at a solution that meets the needs of the component and the product.</p>
+											<blockquote>
+												<h4 class="pt-3 pb-3">Storyboard</h4>
+												<img src="assets/images/storyboard.png" alt="image">
+											</blockquote>
+											<blockquote>
+												<h4 class="pt-3 pb-3">Design</h4>
 											<h6 class="pt-3 pb-3">Joining a call as the primary action</h6>
 											
 												<div class="signature pt-1">
 												
-													<img src="assets/images/pushnotification01.png" alt="image" style="max-width: 40%;">
+													<img src="assets/images/pushnotification01.png" alt="image" style="max-width: 50%;">
 												</div>
 
 												<h6 class="pt-3 pb-3">Accepting a request or opt-in as the primary action</h6>
 											
 												<div class="signature pt-1">
 												
-													<img src="assets/images/pushnotification02.png" alt="image" style="max-width: 40%;">
+													<img src="assets/images/pushnotification02.png" alt="image" style="max-width: 50%;">
 												</div>
 
 												<h6 class="pt-3 pb-3">Secondary action: Dismissal/cancel the call</h6>
 											
 												<div class="signature pt-1">
 												
-													<img src="assets/images/pushnotification03.png" alt="image" style="max-width: 40%;">
+													<img src="assets/images/pushnotification03.png" alt="image" style="max-width: 50%;">
 												</div>
+											</blockquote>
+											
+											<blockquote>
+												<h4 class="pt-3 ">Design Checklist</b></h4><br>
+												<p>I thoroughly reviewed and checked the design checklist to ensure that the design met all the necessary criteria and standards</p>
+
+												<h6 class="pt-3 ">Foundation</b></h6>
+												<ul class="pt-3 px-3 pb-3">
+												<li><b>Uniqueness:</b> Is not redundant with other Product System components.</li>
+												<li><b>Color:</b> Uses BDG semantic colors, following usage guidelines.</li>
+												<li><b>Color Contrast:</b> Meets AA color contrast ratio</li>
+												<li><b>Typography:</b> Uses BDG Type Ramp</li>
+											</ul>
+
+											<h6 class="pt-3 ">Assets</b></h6>
+											<ul class="pt-3 px-3 pb-3">
+												<li><b>Icons:</b> Uses instances for icons from the BDG System Icon Library.</li>
+												<li><b>Illustrations:</b>  Follows BDG illustration guidelines.</li>
+												<li><b>Motion:</b>  Follows BDG motion guidelines.</li>
+												
+											</ul>
+											<h6 class="pt-3 ">Layout</b></h6>
+											<ul class="pt-3 px-3 pb-3">
+												<li><b>Touch Targets:</b>  Touch targets are at least 44x44dp, with the BDG standard of 24dp of space.Text links should have a min surface area of 1936dp.</li>
+												<li><b>Spacing:</b>   Spacing adheres to multiples of an 8dp, or 4dp for under 24dp.</li>
+												<li><b>Localization & Font Scaling:</b>   Accommodates for all languages and type sizes by defining component behaviour for longer, shorter, or larger text.</li>
+												<li><b>Content:</b>    Content adheres to the Content Style Guide.</li>
+												
+											</ul>
+											<h6 class="pt-3 ">States, Variants & Modes</b></h6>
+											<ul class="pt-3 px-3 pb-3">
+												<li><b>States:</b>  Pressed, disabled, loading and error states are included if applicable.</li>
+												<li><b>Dark Mode:</b> Includes dark mode variants</li>
+												<li><b>Accessibility Labels:</b> Includes accessiblity labels when applicable.</li>
+												<li>Sounds and Screen reader.</li>
+												
+											</ul>
+										</blockquote>
+			
 
 											<h3 class="pt-3">Testing</h3>
-											<p class="pt-3">I prototype the component and test it with designers (users) and eng to ensure that it meets their needs and is intuitive to use. I also test the component's performance across different devices and browsers to ensure it is responsive and scalable</p>
-											<h6 class="pt-3 ">Foundations</b></h6>
-											
-											
-												<ul class="pt-3 px-3 pb-3">
-													<li><b>Uniqueness:</b> Is not redundant with other Product System components.</li>
-													<li><b>Color:</b> Uses BDG semantic colors, following usage guidelines.</li>
-													<li><b>Color Contrast:</b> Meets AA color contrast ratio</li>
-													<li><b>Typography:</b> Uses BDG Type Ramp</li>
-												</ul>
-
-												<h6 class="pt-3 ">Assets</b></h6>
-												<ul class="pt-3 px-3 pb-3">
-													<li><b>Icons:</b> Uses instances for icons from the BDG System Icon Library.</li>
-													<li><b>Illustrations:</b>  Follows BDG illustration guidelines.</li>
-													<li><b>Motion:</b>  Follows BDG motion guidelines.</li>
-													
-												</ul>
-												<h6 class="pt-3 ">Layout</b></h6>
-												<ul class="pt-3 px-3 pb-3">
-													<li><b>Touch Targets:</b>  Touch targets are at least 44x44dp, with the BDG standard of 24dp of space.Text links should have a min surface area of 1936dp.</li>
-													<li><b>Spacing:</b>   Spacing adheres to multiples of an 8dp, or 4dp for under 24dp.</li>
-													<li><b>Localization & Font Scaling:</b>   Accommodates for all languages and type sizes by defining component behaviour for longer, shorter, or larger text.</li>
-													<li><b>Content:</b>    Content adheres to the Content Style Guide.</li>
-													
-												</ul>
-												<h6 class="pt-3 ">States, Variants & Modes</b></h6>
-												<ul class="pt-3 px-3 pb-3">
-													<li><b>States:</b>  Pressed, disabled, loading and error states are included if applicable.</li>
-													<li><b>Dark Mode:</b> Includes dark mode variants</li>
-													<li><b>Accessibility Labels:</b> Includes accessiblity labels when applicable.</li>
-													<li>Sounds and Screen reader.</li>
-													
-												</ul>
-											
+											<p class="pt-3">I create a prototype of the component and conduct usability testing with both designers (users) and engineers to ensure it aligns with their requirements and offers an intuitive user experience. Additionally, I assess the component's performance on various devices and browsers to guarantee its responsiveness and scalability</p>
+																		
 
 											
 									
@@ -289,13 +302,16 @@
 											
 											<div class="signature pt-3 px-3">
 												
-												<img src="assets/images/fb_3.png" alt="image" style="width: 60%;">
+												<img src="assets/images/designspec.png" alt="image" style="width: 100%;">
 											</div>
 											<div class="signature pt-3 px-3 pb-3">
 												
-												<img src="assets/images/fb_4.png"  alt="image" style="width: 45%; background: rgb(29,51,54);
-												background: linear-gradient(90deg, rgba(29,51,54,1) 0%, rgba(48,51,61,1) 100%);">
+												<img src="assets/images/spacing.png"  alt="image" style="width:100%;">
 											</div>
+											<blockquote>
+												<h4 class="pt-3 pb-3">Product Reference</h4>
+												<img src="assets/images/pd.png" alt="image">
+											</blockquote>
 
 											<h3 class="blog_heading pt-5">Interaction and Navigation</h3>
 											<h6 class="pt-3">Tapping the primary action button</h6>
