@@ -332,13 +332,14 @@ transform: translate(-50%,-50%);
 /* ---- start profile ---- */
 
 .port_sidebar_wrapper {
-    width: 120px;
-	text-align: center;
+    width: 100%;
+	text-align: left;
+    padding-top:10px;
+    padding-left: 220px;
     background: white;
     position: fixed;
     left:0;
-    height: 100%;
-    box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    height: 120px;
     z-index: 2;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
