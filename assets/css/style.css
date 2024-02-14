@@ -2154,6 +2154,7 @@ h2.project_heading:after {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    font-family: 'poppins';
 }
 .port_blog_setions .port_blog_contentbox span a {
     color: #ff754a;
